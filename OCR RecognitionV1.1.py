@@ -58,7 +58,7 @@ def gettext():
     # required stuff
     # ----------------------------------------
     url = 'https://api.ocr.space/parse/image'
-    api_key = 'a07656b96688957'
+    api_key = 'your api key'
     # ----------------------------------------
 
     lang_dict = {'Arabic': 'ara', 'Dutch': 'dut', 'English': 'eng',
