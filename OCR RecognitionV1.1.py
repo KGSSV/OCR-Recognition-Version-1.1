@@ -24,7 +24,7 @@ input_frame1.grid(row=0, column=0)
 input_frame2.grid(row=0, column=1)
 
 
-root.title('OCR Extractor V1.1')
+root.title('OCR Extractor V1.2')
 root.geometry('695x500')
 root.resizable(0, 0)
 root.iconbitmap('icon.ico')
