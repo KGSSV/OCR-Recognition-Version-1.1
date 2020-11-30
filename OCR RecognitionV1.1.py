@@ -63,7 +63,7 @@ def gettext():
     # required stuff
     # ----------------------------------------
     url = 'https://api.ocr.space/parse/image'
-    api_key = 'a07656b96688957'
+    api_key = 'Your Api Key'
     # ----------------------------------------
 
     # map the language selected by approproyare keyword
