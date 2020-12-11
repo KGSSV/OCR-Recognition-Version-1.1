@@ -63,13 +63,13 @@ def gettext():
     # required stuff
     # ----------------------------------------
     url = 'https://api.ocr.space/parse/image'
-    api_key = 'Your Api Key'
+    api_key = 'Your Api Key get it from ocr.space'
     # ----------------------------------------
 
     # map the language selected by approproyare keyword
     lang_dict = {'Arabic': 'ara', 'Dutch': 'dut', 'English': 'eng',
-                 'French': 'fre', 'German': 'ger', 'None': 'eng'}
-    lang = lang_dict[langvar.get()]
+                 'French': 'fre', 'German': 'ger', 'None': 'eng', 'Japanese': 'jap'}
+    lang = lang_dict[langvar.get()]  # gets values
 
     # if length is there means user wants to use the url method but if images is already sleected then url entry box must be cleared
     length = len(url_ent.get())
